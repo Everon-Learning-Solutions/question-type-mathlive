@@ -1,0 +1,28 @@
+/* Applicable to mobile devices with screen width less than or equal to 768px */
+@media screen and (max-width: 768px) {
+    #answer_mathfield {
+        width: 100% !important;
+        margin-bottom: 1em;
+    }
+    @media (pointer: coarse) {
+        .ML__virtual-keyboard-toggle, .ML__menu-toggle {
+            min-width: 0 !important;
+            min-height: 0 !important;
+        }
+    }
+}
+
+/* For smaller screens, width ≤ 480px */
+@media screen and (max-width: 480px) {
+    #answer_mathfield {
+        width: 100% !important;
+        margin-bottom: 1em;
+    }
+    @media (pointer: coarse) {
+        .ML__virtual-keyboard-toggle, .ML__menu-toggle {
+            min-width: 0 !important;
+            min-height: 0 !important;
+        }
+    }
+}
+
